@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var sitesRouter = require('./routes/sites')
 var tracesRouter = require('./routes/traces')
+var endpointCostRouter = require('./routes/endpointcost')
 
 var app = express();
 
@@ -22,5 +23,6 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/sites', sitesRouter)
 app.use('/traces', tracesRouter)
+app.use('/endpointcost', endpointCostRouter)
 
 module.exports = app;

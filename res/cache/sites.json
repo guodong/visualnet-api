@@ -1,0 +1,3391 @@
+{
+  "AGLT2": {
+      "name": "AGLT2",
+      "latitude": 42.292,
+      "longitude": -83.718,
+      "networks": {
+          "ipv4": [
+              "192.41.230.0/23",
+              "192.41.236.0/23",
+              "192.41.238.0/28"
+          ],
+          "ipv6": [
+              "2001:48a8:68f7::/48"
+          ]
+      },
+      "country": "United States",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "psmsu02.aglt2.org": {
+              "name": "psmsu02.aglt2.org",
+              "type": "PS"
+          },
+          "psum02.aglt2.org": {
+              "name": "psum02.aglt2.org",
+              "type": "PS"
+          },
+          "psmsu01.aglt2.org": {
+              "name": "psmsu01.aglt2.org",
+              "type": "PS"
+          },
+          "psum01.aglt2.org": {
+              "name": "psum01.aglt2.org",
+              "type": "PS"
+          },
+          "webdav.aglt2.org": {
+              "name": "webdav.aglt2.org",
+              "type": "SE"
+          },
+          "xrootd.aglt2.org": {
+              "name": "xrootd.aglt2.org",
+              "type": "SE"
+          }
+      }
+  },
+  "ARC-TEST": {
+      "name": "ARC-TEST",
+      "latitude": 59,
+      "longitude": 16,
+      "networks": {
+          "ipv4": [
+              "109.105.124.0/22"
+          ],
+          "ipv6": [
+              "2001:948:40::/42"
+          ]
+      },
+      "country": "Sweden",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "ARNES": {
+      "name": "ARNES",
+      "latitude": 46.05,
+      "longitude": 14.46,
+      "networks": {},
+      "country": "Slovenia",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "AUVERGRID": {
+      "name": "AUVERGRID",
+      "latitude": 45.79,
+      "longitude": 3.08,
+      "networks": {},
+      "country": "France",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "AYDIN": {
+      "name": "AYDIN",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "Turkey",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "AZ-IFAN": {
+      "name": "AZ-IFAN",
+      "latitude": 40.37,
+      "longitude": 49.81,
+      "networks": {},
+      "country": "Azerbaijan",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "perfsonar.physics.science.az": {
+              "name": "perfsonar.physics.science.az",
+              "type": "PS"
+          },
+          "perfsonar2.physics.science.az": {
+              "name": "perfsonar2.physics.science.az",
+              "type": "PS"
+          }
+      }
+  },
+  "Australia-ATLAS": {
+      "name": "Australia-ATLAS",
+      "latitude": -37.8,
+      "longitude": 144.96,
+      "networks": {
+          "ipv4": [
+              "192.231.127.0/24",
+              "192.43.208.0/24"
+          ]
+      },
+      "country": "Australia",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "ps-bandwidth.atlas.unimelb.edu.au": {
+              "name": "ps-bandwidth.atlas.unimelb.edu.au",
+              "type": "PS"
+          },
+          "ps-latency.atlas.unimelb.edu.au": {
+              "name": "ps-latency.atlas.unimelb.edu.au",
+              "type": "PS"
+          },
+          "agh3.atlas.unimelb.edu.au": {
+              "name": "agh3.atlas.unimelb.edu.au",
+              "type": "SE"
+          }
+      }
+  },
+  "BEIJING-LCG2": {
+      "name": "BEIJING-LCG2",
+      "latitude": 39.91,
+      "longitude": 116.25,
+      "networks": {
+          "ipv4": [
+              "202.122.33.0/24"
+          ],
+          "ipv6": [
+              "2401:de00:1:32::/64"
+          ]
+      },
+      "country": "China",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar.ihep.ac.cn": {
+              "name": "perfsonar.ihep.ac.cn",
+              "type": "PS"
+          },
+          "perfsonar2.ihep.ac.cn": {
+              "name": "perfsonar2.ihep.ac.cn",
+              "type": "PS"
+          },
+          "cceos.ihep.ac.cn": {
+              "name": "cceos.ihep.ac.cn",
+              "type": "SE"
+          }
+      }
+  },
+  "BNL-ATLAS": {
+      "name": "BNL-ATLAS",
+      "latitude": 40.8611,
+      "longitude": -72.8778,
+      "networks": {
+          "ipv4": [
+              "130.199.185.0/24",
+              "130.199.48.0/23",
+              "192.12.15.0/24",
+              "192.33.128.0/24",
+              "198.125.208.0/22"
+          ],
+          "ipv6": [
+              "2620:0:210::/48"
+          ]
+      },
+      "country": "United States",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "lhcmon.bnl.gov": {
+              "name": "lhcmon.bnl.gov",
+              "type": "PS"
+          },
+          "lhcperfmon.bnl.gov": {
+              "name": "lhcperfmon.bnl.gov",
+              "type": "PS"
+          },
+          "ps-development.bnl.gov": {
+              "name": "ps-development.bnl.gov",
+              "type": "PS"
+          },
+          "dcgftp.usatlas.bnl.gov": {
+              "name": "dcgftp.usatlas.bnl.gov",
+              "type": "SE"
+          },
+          "dcsrm.usatlas.bnl.gov": {
+              "name": "dcsrm.usatlas.bnl.gov",
+              "type": "SE"
+          },
+          "dcqosdoor.usatlas.bnl.gov": {
+              "name": "dcqosdoor.usatlas.bnl.gov",
+              "type": "SE"
+          },
+          "dcqos001.usatlas.bnl.gov": {
+              "name": "dcqos001.usatlas.bnl.gov",
+              "type": "SE"
+          },
+          "example.com": {
+              "name": "example.com",
+              "type": "SE"
+          },
+          "xrootd04.usatlas.bnl.gov": {
+              "name": "xrootd04.usatlas.bnl.gov",
+              "type": "SE"
+          },
+          "globus01.sdcc.bnl.gov": {
+              "name": "globus01.sdcc.bnl.gov",
+              "type": "SE"
+          }
+      }
+  },
+  "BNL-ATLAS-OPP": {
+      "name": "BNL-ATLAS-OPP",
+      "latitude": 40.868,
+      "longitude": -72.878,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "BNL-ATLAS_VP": {
+      "name": "BNL-ATLAS_VP",
+      "latitude": 40,
+      "longitude": -72,
+      "networks": {
+          "ipv4": [
+              "130.199.185.0/24",
+              "130.199.48.0/23",
+              "192.12.15.0/24",
+              "192.33.128.0/24",
+              "198.125.208.0/22"
+          ],
+          "ipv6": [
+              "2620:0:210::/48"
+          ]
+      },
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "BNLHPC": {
+      "name": "BNLHPC",
+      "latitude": 40,
+      "longitude": -72,
+      "networks": {
+          "ipv4": [
+              "130.199.185.0/24",
+              "130.199.48.0/23",
+              "192.12.15.0/24",
+              "192.33.128.0/24",
+              "198.125.208.0/22"
+          ],
+          "ipv6": [
+              "2620:0:210::/48"
+          ]
+      },
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "BNLLAKE": {
+      "name": "BNLLAKE",
+      "latitude": 40,
+      "longitude": -72,
+      "networks": {
+          "ipv4": [
+              "130.199.185.0/24",
+              "130.199.48.0/23",
+              "192.12.15.0/24",
+              "192.33.128.0/24",
+              "198.125.208.0/22"
+          ],
+          "ipv6": [
+              "2620:0:210::/48"
+          ]
+      },
+      "country": "United States",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {}
+  },
+  "BOINC": {
+      "name": "BOINC",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "Switzerland",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "BOINC-CERN": {
+      "name": "BOINC-CERN",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "Switzerland",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "BU_ATLAS_Tier2": {
+      "name": "BU_ATLAS_Tier2",
+      "latitude": 42.339,
+      "longitude": -71.073,
+      "networks": {},
+      "country": "United States",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "atlas-npt2.bu.edu": {
+              "name": "atlas-npt2.bu.edu",
+              "type": "PS"
+          },
+          "atlas-npt1.bu.edu": {
+              "name": "atlas-npt1.bu.edu",
+              "type": "PS"
+          },
+          "atlas-owamp.bu.edu": {
+              "name": "atlas-owamp.bu.edu",
+              "type": "PS"
+          },
+          "dtn16.nese.rc.fas.harvard.edu": {
+              "name": "dtn16.nese.rc.fas.harvard.edu",
+              "type": "SE"
+          }
+      }
+  },
+  "BU_NESE": {
+      "name": "BU_NESE",
+      "latitude": 42.339,
+      "longitude": -71.073,
+      "networks": {},
+      "country": "United States",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {}
+  },
+  "CA-SFU-T2": {
+      "name": "CA-SFU-T2",
+      "latitude": 49.25,
+      "longitude": -122.95,
+      "networks": {
+          "ipv4": [
+              "206.12.24.224/27"
+          ]
+      },
+      "country": "Canada",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "lcg-bw.sfu.computecanada.ca": {
+              "name": "lcg-bw.sfu.computecanada.ca",
+              "type": "PS"
+          },
+          "lcg-lat.sfu.computecanada.ca": {
+              "name": "lcg-lat.sfu.computecanada.ca",
+              "type": "PS"
+          },
+          "lcg-se1.sfu.computecanada.ca": {
+              "name": "lcg-se1.sfu.computecanada.ca",
+              "type": "SE"
+          },
+          "lcg-dp4.sfu.computecanada.ca": {
+              "name": "lcg-dp4.sfu.computecanada.ca",
+              "type": "SE"
+          },
+          "lcg-dp15.sfu.computecanada.ca": {
+              "name": "lcg-dp15.sfu.computecanada.ca",
+              "type": "SE"
+          }
+      }
+  },
+  "CA-TORONTO-T3": {
+      "name": "CA-TORONTO-T3",
+      "latitude": 43.8,
+      "longitude": -79.5,
+      "networks": {},
+      "country": "Canada",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "CA-TRIUMF-DISKLESS": {
+      "name": "CA-TRIUMF-DISKLESS",
+      "latitude": 49.25,
+      "longitude": -123.23,
+      "networks": {},
+      "country": "Canada",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "CA-UVic-Cloud": {
+      "name": "CA-UVic-Cloud",
+      "latitude": 48.46,
+      "longitude": -123.31,
+      "networks": {},
+      "country": "Canada",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "CA-VICTORIA-WESTGRID-T2": {
+      "name": "CA-VICTORIA-WESTGRID-T2",
+      "latitude": 48.47,
+      "longitude": -123.31,
+      "networks": {
+          "ipv4": [
+              "142.104.21.0/25",
+              "206.12.48.224/27"
+          ]
+      },
+      "country": "Canada",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "ps-bandwidth.hepnetcanada.ca": {
+              "name": "ps-bandwidth.hepnetcanada.ca",
+              "type": "PS"
+          },
+          "ps-latency.hepnetcanada.ca": {
+              "name": "ps-latency.hepnetcanada.ca",
+              "type": "PS"
+          },
+          "basilisk02.westgrid.ca": {
+              "name": "basilisk02.westgrid.ca",
+              "type": "SE"
+          }
+      }
+  },
+  "CA-WATERLOO-T2": {
+      "name": "CA-WATERLOO-T2",
+      "latitude": 43.47,
+      "longitude": -80.54,
+      "networks": {},
+      "country": "Canada",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "lcg-psbw.uw.computecanada.ca": {
+              "name": "lcg-psbw.uw.computecanada.ca",
+              "type": "PS"
+          },
+          "lcg-pslat.uw.computecanada.ca": {
+              "name": "lcg-pslat.uw.computecanada.ca",
+              "type": "PS"
+          },
+          "lcg-dp01.uw.computecanada.ca": {
+              "name": "lcg-dp01.uw.computecanada.ca",
+              "type": "SE"
+          }
+      }
+  },
+  "CERN-EXTENSION": {
+      "name": "CERN-EXTENSION",
+      "latitude": 46.23,
+      "longitude": 6.04,
+      "networks": {
+          "ipv4": [
+              "128.142.0.0/16",
+              "188.184.128.0/17",
+              "188.185.128.0/17",
+              "188.185.48.0/20"
+          ],
+          "ipv6": [
+              "2001:1458:301::/48",
+              "2001:1458:302::/48",
+              "2001:1458:303::/48",
+              "2001:1459:301::/48",
+              "2001:1459:303::/48"
+          ]
+      },
+      "country": "Switzerland",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "CERN-P1": {
+      "name": "CERN-P1",
+      "latitude": 46.23,
+      "longitude": 6.04,
+      "networks": {
+          "ipv4": [
+              "128.142.0.0/16",
+              "188.184.128.0/17",
+              "188.185.128.0/17",
+              "188.185.48.0/20"
+          ],
+          "ipv6": [
+              "2001:1458:301::/48",
+              "2001:1458:302::/48",
+              "2001:1458:303::/48",
+              "2001:1459:301::/48",
+              "2001:1459:303::/48"
+          ]
+      },
+      "country": "Switzerland",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "CERN-PROD": {
+      "name": "CERN-PROD",
+      "latitude": 46.23,
+      "longitude": 6.04,
+      "networks": {
+          "ipv4": [
+              "128.142.0.0/16",
+              "188.184.128.0/17",
+              "188.185.128.0/17",
+              "188.185.48.0/20"
+          ],
+          "ipv6": [
+              "2001:1458:301::/48",
+              "2001:1458:302::/48",
+              "2001:1458:303::/48",
+              "2001:1459:301::/48",
+              "2001:1459:303::/48"
+          ]
+      },
+      "country": "Switzerland",
+      "tier": 0,
+      "vo": "atlas",
+      "services": {
+          "psb01-gva-100g.cern.ch": {
+              "name": "psb01-gva-100g.cern.ch",
+              "type": "PS"
+          },
+          "psb01-gva.cern.ch": {
+              "name": "psb01-gva.cern.ch",
+              "type": "PS"
+          },
+          "psl01-gva.cern.ch": {
+              "name": "psl01-gva.cern.ch",
+              "type": "PS"
+          },
+          "eosatlas.cern.ch": {
+              "name": "eosatlas.cern.ch",
+              "type": "SE"
+          },
+          "eulake.cern.ch": {
+              "name": "eulake.cern.ch",
+              "type": "SE"
+          },
+          "eospublic.cern.ch": {
+              "name": "eospublic.cern.ch",
+              "type": "SE"
+          },
+          "srm-atlas.cern.ch": {
+              "name": "srm-atlas.cern.ch",
+              "type": "SE"
+          },
+          "eosctaatlas.cern.ch": {
+              "name": "eosctaatlas.cern.ch",
+              "type": "SE"
+          }
+      }
+  },
+  "CERN-T0": {
+      "name": "CERN-T0",
+      "latitude": 46.23,
+      "longitude": 6.04,
+      "networks": {
+          "ipv4": [
+              "128.142.0.0/16",
+              "188.184.128.0/17",
+              "188.185.128.0/17",
+              "188.185.48.0/20"
+          ],
+          "ipv6": [
+              "2001:1458:301::/48",
+              "2001:1458:302::/48",
+              "2001:1458:303::/48",
+              "2001:1459:301::/48",
+              "2001:1459:303::/48"
+          ]
+      },
+      "country": "Switzerland",
+      "tier": 0,
+      "vo": "atlas",
+      "services": {}
+  },
+  "CSCS-LCG2": {
+      "name": "CSCS-LCG2",
+      "latitude": 46.02,
+      "longitude": 8.92,
+      "networks": {},
+      "country": "Switzerland",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar.cscs.ch": {
+              "name": "perfsonar.cscs.ch",
+              "type": "PS"
+          },
+          "storage01.lcg.cscs.ch": {
+              "name": "storage01.lcg.cscs.ch",
+              "type": "SE"
+          }
+      }
+  },
+  "CYFRONET-LCG2": {
+      "name": "CYFRONET-LCG2",
+      "latitude": 50.069,
+      "longitude": 19.909,
+      "networks": {
+          "ipv4": [
+              "149.156.5.192/27"
+          ]
+      },
+      "country": "Poland",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar01.grid.cyfronet.pl": {
+              "name": "perfsonar01.grid.cyfronet.pl",
+              "type": "PS"
+          },
+          "se01.grid.cyfronet.pl": {
+              "name": "se01.grid.cyfronet.pl",
+              "type": "SE"
+          }
+      }
+  },
+  "DESY-HH": {
+      "name": "DESY-HH",
+      "latitude": 53.577,
+      "longitude": 9.877,
+      "networks": {
+          "ipv4": [
+              "131.169.160.0/21",
+              "131.169.191.0/24",
+              "131.169.192.0/24",
+              "131.169.80.0/24",
+              "131.169.98.0/24",
+              "141.34.192.0/21",
+              "141.34.200.0/24"
+          ],
+          "ipv6": [
+              "2001:638:700:1062::/64",
+              "2001:638:700:10a0::/64",
+              "2001:638:700:10bf::/64",
+              "2001:638:700:10c0::/64"
+          ]
+      },
+      "country": "Germany",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar-ps-04.desy.de": {
+              "name": "perfsonar-ps-04.desy.de",
+              "type": "PS"
+          },
+          "perfsonar-ps-03.desy.de": {
+              "name": "perfsonar-ps-03.desy.de",
+              "type": "PS"
+          },
+          "dcache-atlas-webdav-wan.desy.de": {
+              "name": "dcache-atlas-webdav-wan.desy.de",
+              "type": "SE"
+          },
+          "dcache-atlas-webdav-job.desy.de": {
+              "name": "dcache-atlas-webdav-job.desy.de",
+              "type": "SE"
+          },
+          "dcache-atlas-xrootd-job.desy.de": {
+              "name": "dcache-atlas-xrootd-job.desy.de",
+              "type": "SE"
+          },
+          "dcache-atlas-xrootd-wan.desy.de": {
+              "name": "dcache-atlas-xrootd-wan.desy.de",
+              "type": "SE"
+          },
+          "dcache-atlas-webdav.desy.de": {
+              "name": "dcache-atlas-webdav.desy.de",
+              "type": "SE"
+          }
+      }
+  },
+  "DESY-ZN": {
+      "name": "DESY-ZN",
+      "latitude": 52.345,
+      "longitude": 13.633,
+      "networks": {},
+      "country": "Germany",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfson2.zeuthen.desy.de": {
+              "name": "perfson2.zeuthen.desy.de",
+              "type": "PS"
+          },
+          "perfson1.zeuthen.desy.de": {
+              "name": "perfson1.zeuthen.desy.de",
+              "type": "PS"
+          },
+          "lcg-se0.ifh.de": {
+              "name": "lcg-se0.ifh.de",
+              "type": "SE"
+          },
+          "lcg-dc0.ifh.de": {
+              "name": "lcg-dc0.ifh.de",
+              "type": "SE"
+          }
+      }
+  },
+  "EELA-UNLP": {
+      "name": "EELA-UNLP",
+      "latitude": -34.91,
+      "longitude": -57.94,
+      "networks": {},
+      "country": "Argentina",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "EELA-UTFSM": {
+      "name": "EELA-UTFSM",
+      "latitude": -33.035,
+      "longitude": -71.597,
+      "networks": {},
+      "country": "Chile",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "psb.hpc.utfsm.cl": {
+              "name": "psb.hpc.utfsm.cl",
+              "type": "PS"
+          },
+          "psl.hpc.utfsm.cl": {
+              "name": "psl.hpc.utfsm.cl",
+              "type": "PS"
+          },
+          "se.hpc.utfsm.cl": {
+              "name": "se.hpc.utfsm.cl",
+              "type": "SE"
+          }
+      }
+  },
+  "EXOSCALE": {
+      "name": "EXOSCALE",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "unknown",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "FMPhI-UNIBA": {
+      "name": "FMPhI-UNIBA",
+      "latitude": 48.15,
+      "longitude": 17.07,
+      "networks": {},
+      "country": "Slovakia",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "lcgperfsonar.dnp.fmph.uniba.sk": {
+              "name": "lcgperfsonar.dnp.fmph.uniba.sk",
+              "type": "PS"
+          },
+          "lcgperfradar.dnp.fmph.uniba.sk": {
+              "name": "lcgperfradar.dnp.fmph.uniba.sk",
+              "type": "PS"
+          },
+          "lcgdpmse.dnp.fmph.uniba.sk": {
+              "name": "lcgdpmse.dnp.fmph.uniba.sk",
+              "type": "SE"
+          }
+      }
+  },
+  "FR-ALPAMED": {
+      "name": "FR-ALPAMED",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "France",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "lapp-testse01.in2p3.fr": {
+              "name": "lapp-testse01.in2p3.fr",
+              "type": "SE"
+          }
+      }
+  },
+  "FR-ALPAMED-CPPM": {
+      "name": "FR-ALPAMED-CPPM",
+      "latitude": 43.231,
+      "longitude": 5.441,
+      "networks": {},
+      "country": "France",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "FR-ALPAMED-LAPP": {
+      "name": "FR-ALPAMED-LAPP",
+      "latitude": 45.922,
+      "longitude": 6.156,
+      "networks": {},
+      "country": "France",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "FR-ALPAMED-LPC": {
+      "name": "FR-ALPAMED-LPC",
+      "latitude": 45.78,
+      "longitude": 3.08,
+      "networks": {},
+      "country": "France",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "FRESNO-AWS": {
+      "name": "FRESNO-AWS",
+      "latitude": 36.813,
+      "longitude": -119.747,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "FZK-LCG2": {
+      "name": "FZK-LCG2",
+      "latitude": 49.099,
+      "longitude": 8.433,
+      "networks": {
+          "ipv4": [
+              "192.106.68.0/24",
+              "192.108.45.0/24",
+              "192.108.46.0/23",
+              "192.108.68.0/24"
+          ],
+          "ipv6": [
+              "2a00:139c::/45"
+          ]
+      },
+      "country": "Germany",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "perfsonar-de-kit.gridka.de": {
+              "name": "perfsonar-de-kit.gridka.de",
+              "type": "PS"
+          },
+          "perfsonar2-de-kit.gridka.de": {
+              "name": "perfsonar2-de-kit.gridka.de",
+              "type": "PS"
+          },
+          "atlaswebdav-kit.gridka.de": {
+              "name": "atlaswebdav-kit.gridka.de",
+              "type": "SE"
+          },
+          "atlasxrootd-kit.gridka.de": {
+              "name": "atlasxrootd-kit.gridka.de",
+              "type": "SE"
+          },
+          "atlassrm-kit.gridka.de": {
+              "name": "atlassrm-kit.gridka.de",
+              "type": "SE"
+          }
+      }
+  },
+  "GOOGLE": {
+      "name": "GOOGLE",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "atlas-google-europe-west1.cern.ch": {
+              "name": "atlas-google-europe-west1.cern.ch",
+              "type": "SE"
+          },
+          "storage.googleapis.com": {
+              "name": "storage.googleapis.com",
+              "type": "SE"
+          },
+          "atlas-google-cloud-lb-global.cern.ch": {
+              "name": "atlas-google-cloud-lb-global.cern.ch",
+              "type": "SE"
+          }
+      }
+  },
+  "GOOGLE_COMPUTE_ENGINE": {
+      "name": "GOOGLE_COMPUTE_ENGINE",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "GOOGLE_US_EAST4": {
+      "name": "GOOGLE_US_EAST4",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "GR-12-TEIKAV": {
+      "name": "GR-12-TEIKAV",
+      "latitude": 40.93,
+      "longitude": 24.379,
+      "networks": {},
+      "country": "Greece",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "GRIF": {
+      "name": "GRIF",
+      "latitude": 48.725,
+      "longitude": 2.149,
+      "networks": {},
+      "country": "France",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "llrpsonar2.in2p3.fr": {
+              "name": "llrpsonar2.in2p3.fr",
+              "type": "PS"
+          },
+          "lpnhe-psb.in2p3.fr": {
+              "name": "lpnhe-psb.in2p3.fr",
+              "type": "PS"
+          },
+          "perfsonar02.datagrid.cea.fr": {
+              "name": "perfsonar02.datagrid.cea.fr",
+              "type": "PS"
+          },
+          "psonar2.lal.in2p3.fr": {
+              "name": "psonar2.lal.in2p3.fr",
+              "type": "PS"
+          },
+          "llrpsonar1.in2p3.fr": {
+              "name": "llrpsonar1.in2p3.fr",
+              "type": "PS"
+          },
+          "lpnhe-psl.in2p3.fr": {
+              "name": "lpnhe-psl.in2p3.fr",
+              "type": "PS"
+          },
+          "perfsonar01.datagrid.cea.fr": {
+              "name": "perfsonar01.datagrid.cea.fr",
+              "type": "PS"
+          },
+          "psonar1.lal.in2p3.fr": {
+              "name": "psonar1.lal.in2p3.fr",
+              "type": "PS"
+          },
+          "eos.grif.fr": {
+              "name": "eos.grif.fr",
+              "type": "SE"
+          }
+      }
+  },
+  "GRIF-IRFU": {
+      "name": "GRIF-IRFU",
+      "latitude": 48.725,
+      "longitude": 2.149,
+      "networks": {},
+      "country": "France",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {}
+  },
+  "GRIF-LAL": {
+      "name": "GRIF-LAL",
+      "latitude": 48.725,
+      "longitude": 2.149,
+      "networks": {},
+      "country": "France",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {}
+  },
+  "GRIF-LPNHE": {
+      "name": "GRIF-LPNHE",
+      "latitude": 48.725,
+      "longitude": 2.149,
+      "networks": {},
+      "country": "France",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {}
+  },
+  "GoeGrid": {
+      "name": "GoeGrid",
+      "latitude": 51.534,
+      "longitude": 9.935,
+      "networks": {},
+      "country": "Germany",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar01.goegrid.gwdg.de": {
+              "name": "perfsonar01.goegrid.gwdg.de",
+              "type": "PS"
+          },
+          "se-goegrid.gwdg.de": {
+              "name": "se-goegrid.gwdg.de",
+              "type": "SE"
+          }
+      }
+  },
+  "HELIX_NEBULA": {
+      "name": "HELIX_NEBULA",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "Switzerland",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "HEPHY-UIBK": {
+      "name": "HEPHY-UIBK",
+      "latitude": 47.264,
+      "longitude": 11.346,
+      "networks": {},
+      "country": "Austria",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {}
+  },
+  "HK-LCG2": {
+      "name": "HK-LCG2",
+      "latitude": 22.417,
+      "longitude": 114.212,
+      "networks": {},
+      "country": "Hong Kong SAR",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "se01.atlas.cuhk.edu.hk": {
+              "name": "se01.atlas.cuhk.edu.hk",
+              "type": "SE"
+          }
+      }
+  },
+  "IAAS": {
+      "name": "IAAS",
+      "latitude": 48.46,
+      "longitude": -123.31,
+      "networks": {},
+      "country": "Canada",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "IEPSAS-Kosice": {
+      "name": "IEPSAS-Kosice",
+      "latitude": 48.73,
+      "longitude": 21.24,
+      "networks": {},
+      "country": "Slovakia",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsona03-iep-grid.saske.sk": {
+              "name": "perfsona03-iep-grid.saske.sk",
+              "type": "PS"
+          },
+          "perfsonar01-iep-grid.saske.sk": {
+              "name": "perfsonar01-iep-grid.saske.sk",
+              "type": "PS"
+          },
+          "perfsonar02-iep-grid.saske.sk": {
+              "name": "perfsonar02-iep-grid.saske.sk",
+              "type": "PS"
+          },
+          "perfsonar04-iep-grid.saske.sk": {
+              "name": "perfsonar04-iep-grid.saske.sk",
+              "type": "PS"
+          },
+          "se-iep-grid.saske.sk": {
+              "name": "se-iep-grid.saske.sk",
+              "type": "SE"
+          }
+      }
+  },
+  "IFIC-LCG2": {
+      "name": "IFIC-LCG2",
+      "latitude": 39.515,
+      "longitude": -0.425,
+      "networks": {},
+      "country": "Spain",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "psific02.ific.uv.es": {
+              "name": "psific02.ific.uv.es",
+              "type": "PS"
+          },
+          "psific01.ific.uv.es": {
+              "name": "psific01.ific.uv.es",
+              "type": "PS"
+          },
+          "srmdav.ific.uv.es": {
+              "name": "srmdav.ific.uv.es",
+              "type": "SE"
+          },
+          "t2fax.ific.uv.es": {
+              "name": "t2fax.ific.uv.es",
+              "type": "SE"
+          }
+      }
+  },
+  "IL-TAU-HEP": {
+      "name": "IL-TAU-HEP",
+      "latitude": 32.1,
+      "longitude": 34.8,
+      "networks": {},
+      "country": "Israel",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "tau-gridftp.hep.tau.ac.il": {
+              "name": "tau-gridftp.hep.tau.ac.il",
+              "type": "SE"
+          }
+      }
+  },
+  "IN2P3-CC": {
+      "name": "IN2P3-CC",
+      "latitude": 45.78,
+      "longitude": 4.87,
+      "networks": {
+          "ipv4": [
+              "193.48.99.0/24"
+          ],
+          "ipv6": [
+              "2001:660:5009:9::/64"
+          ]
+      },
+      "country": "France",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "ccperfsonar1.in2p3.fr": {
+              "name": "ccperfsonar1.in2p3.fr",
+              "type": "PS"
+          },
+          "ccperfsonar2.in2p3.fr": {
+              "name": "ccperfsonar2.in2p3.fr",
+              "type": "PS"
+          },
+          "ccdavatlas.in2p3.fr": {
+              "name": "ccdavatlas.in2p3.fr",
+              "type": "SE"
+          },
+          "ccxrdatlastpc.in2p3.fr": {
+              "name": "ccxrdatlastpc.in2p3.fr",
+              "type": "SE"
+          },
+          "ccxrootdatlas.in2p3.fr": {
+              "name": "ccxrootdatlas.in2p3.fr",
+              "type": "SE"
+          },
+          "ccdcalitest11.in2p3.fr": {
+              "name": "ccdcalitest11.in2p3.fr",
+              "type": "SE"
+          },
+          "ccdcalitest12.in2p3.fr": {
+              "name": "ccdcalitest12.in2p3.fr",
+              "type": "SE"
+          },
+          "ccsrm.in2p3.fr": {
+              "name": "ccsrm.in2p3.fr",
+              "type": "SE"
+          }
+      }
+  },
+  "IN2P3-CC-T3": {
+      "name": "IN2P3-CC-T3",
+      "latitude": 45.78,
+      "longitude": 4.87,
+      "networks": {
+          "ipv4": [
+              "193.48.99.0/24"
+          ],
+          "ipv6": [
+              "2001:660:5009:9::/64"
+          ]
+      },
+      "country": "France",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "IN2P3-CC_DATALAKE": {
+      "name": "IN2P3-CC_DATALAKE",
+      "latitude": 45.78,
+      "longitude": 4.87,
+      "networks": {
+          "ipv4": [
+              "193.48.99.0/24"
+          ],
+          "ipv6": [
+              "2001:660:5009:9::/64"
+          ]
+      },
+      "country": "France",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "IN2P3-CPPM": {
+      "name": "IN2P3-CPPM",
+      "latitude": 43.231,
+      "longitude": 5.441,
+      "networks": {},
+      "country": "France",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "marperf01.in2p3.fr": {
+              "name": "marperf01.in2p3.fr",
+              "type": "PS"
+          },
+          "marperf02.in2p3.fr": {
+              "name": "marperf02.in2p3.fr",
+              "type": "PS"
+          },
+          "marsedpm.in2p3.fr": {
+              "name": "marsedpm.in2p3.fr",
+              "type": "SE"
+          }
+      }
+  },
+  "IN2P3-LAPP": {
+      "name": "IN2P3-LAPP",
+      "latitude": 45.922,
+      "longitude": 6.156,
+      "networks": {},
+      "country": "France",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "lapp-ps01.in2p3.fr": {
+              "name": "lapp-ps01.in2p3.fr",
+              "type": "PS"
+          },
+          "lapp-ps02.in2p3.fr": {
+              "name": "lapp-ps02.in2p3.fr",
+              "type": "PS"
+          },
+          "lapp-dccentral01.in2p3.fr": {
+              "name": "lapp-dccentral01.in2p3.fr",
+              "type": "SE"
+          }
+      }
+  },
+  "IN2P3-LPC": {
+      "name": "IN2P3-LPC",
+      "latitude": 45.78,
+      "longitude": 3.08,
+      "networks": {},
+      "country": "France",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "clrperf-bwctl.in2p3.fr": {
+              "name": "clrperf-bwctl.in2p3.fr",
+              "type": "PS"
+          },
+          "clrperf-owamp.in2p3.fr": {
+              "name": "clrperf-owamp.in2p3.fr",
+              "type": "PS"
+          },
+          "clrlcgse01.in2p3.fr": {
+              "name": "clrlcgse01.in2p3.fr",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-BOLOGNA-T3": {
+      "name": "INFN-BOLOGNA-T3",
+      "latitude": 44.495,
+      "longitude": 11.342,
+      "networks": {},
+      "country": "Italy",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "ds-t3-01.cr.cnaf.infn.it": {
+              "name": "ds-t3-01.cr.cnaf.infn.it",
+              "type": "SE"
+          },
+          "sebo-t3-01.cr.cnaf.infn.it": {
+              "name": "sebo-t3-01.cr.cnaf.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-COSENZA": {
+      "name": "INFN-COSENZA",
+      "latitude": 39.332,
+      "longitude": 16.181,
+      "networks": {},
+      "country": "Italy",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "recas-se-01.cs.infn.it": {
+              "name": "recas-se-01.cs.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-FRASCATI": {
+      "name": "INFN-FRASCATI",
+      "latitude": 41.79,
+      "longitude": 12.68,
+      "networks": {},
+      "country": "Italy",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "psfrascati01.lnf.infn.it": {
+              "name": "psfrascati01.lnf.infn.it",
+              "type": "PS"
+          },
+          "psfrascati02.lnf.infn.it": {
+              "name": "psfrascati02.lnf.infn.it",
+              "type": "PS"
+          },
+          "atlasse.lnf.infn.it": {
+              "name": "atlasse.lnf.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-GENOVA": {
+      "name": "INFN-GENOVA",
+      "latitude": 44.418,
+      "longitude": 8.931,
+      "networks": {},
+      "country": "Italy",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "grid03.ge.infn.it": {
+              "name": "grid03.ge.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-LECCE": {
+      "name": "INFN-LECCE",
+      "latitude": 40.36,
+      "longitude": 18.17,
+      "networks": {},
+      "country": "Italy",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "se.le.infn.it": {
+              "name": "se.le.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-MILANO-ATLASC": {
+      "name": "INFN-MILANO-ATLASC",
+      "latitude": 45.47,
+      "longitude": 9.23,
+      "networks": {
+          "ipv4": [
+              "192.135.14.0/24"
+          ],
+          "ipv6": [
+              "2001:760:4224::/48"
+          ]
+      },
+      "country": "Italy",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar2.mi.infn.it": {
+              "name": "perfsonar2.mi.infn.it",
+              "type": "PS"
+          },
+          "perfsonar1.mi.infn.it": {
+              "name": "perfsonar1.mi.infn.it",
+              "type": "PS"
+          },
+          "storm-ft.mi.infn.it": {
+              "name": "storm-ft.mi.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-NAPOLI-ATLAS": {
+      "name": "INFN-NAPOLI-ATLAS",
+      "latitude": 40.853,
+      "longitude": 14.236,
+      "networks": {
+          "ipv4": [
+              "90.147.67.0/24"
+          ],
+          "ipv6": [
+              "2001:760:422a:137::/64"
+          ]
+      },
+      "country": "Italy",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar.na.infn.it": {
+              "name": "perfsonar.na.infn.it",
+              "type": "PS"
+          },
+          "perfsonar2.na.infn.it": {
+              "name": "perfsonar2.na.infn.it",
+              "type": "PS"
+          },
+          "t2-dcache-01.na.infn.it": {
+              "name": "t2-dcache-01.na.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-ROMA1": {
+      "name": "INFN-ROMA1",
+      "latitude": 41.783,
+      "longitude": 13.026,
+      "networks": {
+          "ipv4": [
+              "141.108.35.0/24",
+              "141.108.36.0/22"
+          ],
+          "ipv6": [
+              "2001:760:422c:36::/64",
+              "2001:760:422c:38::/64"
+          ]
+      },
+      "country": "Italy",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar1.roma1.infn.it": {
+              "name": "perfsonar1.roma1.infn.it",
+              "type": "PS"
+          },
+          "perfsonar.roma1.infn.it": {
+              "name": "perfsonar.roma1.infn.it",
+              "type": "PS"
+          },
+          "perfsonar2.roma1.infn.it": {
+              "name": "perfsonar2.roma1.infn.it",
+              "type": "PS"
+          },
+          "grid-cert-03.roma1.infn.it": {
+              "name": "grid-cert-03.roma1.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-ROMA2": {
+      "name": "INFN-ROMA2",
+      "latitude": 41.25,
+      "longitude": 12.6,
+      "networks": {},
+      "country": "Italy",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "gridvm01.roma2.infn.it": {
+              "name": "gridvm01.roma2.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-ROMA3": {
+      "name": "INFN-ROMA3",
+      "latitude": 41.855,
+      "longitude": 12.467,
+      "networks": {},
+      "country": "Italy",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "storm-01.roma3.infn.it": {
+              "name": "storm-01.roma3.infn.it",
+              "type": "SE"
+          },
+          "gridsrv-06.roma3.infn.it": {
+              "name": "gridsrv-06.roma3.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-T1": {
+      "name": "INFN-T1",
+      "latitude": 44.495,
+      "longitude": 11.342,
+      "networks": {
+          "ipv4": [
+              "131.154.128.0/17"
+          ],
+          "ipv6": [
+              "2001:760:4205::/48"
+          ]
+      },
+      "country": "Italy",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "perfsonar-ps.cnaf.infn.it": {
+              "name": "perfsonar-ps.cnaf.infn.it",
+              "type": "PS"
+          },
+          "perfsonar-ow.cnaf.infn.it": {
+              "name": "perfsonar-ow.cnaf.infn.it",
+              "type": "PS"
+          },
+          "xfer.cr.cnaf.infn.it": {
+              "name": "xfer.cr.cnaf.infn.it",
+              "type": "SE"
+          },
+          "xrootd-atlas.cr.cnaf.infn.it": {
+              "name": "xrootd-atlas.cr.cnaf.infn.it",
+              "type": "SE"
+          },
+          "storm-fe.cr.cnaf.infn.it": {
+              "name": "storm-fe.cr.cnaf.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "INFN-TRIESTE": {
+      "name": "INFN-TRIESTE",
+      "latitude": 45.66,
+      "longitude": 13.83,
+      "networks": {},
+      "country": "Italy",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "gridsrm.ts.infn.it": {
+              "name": "gridsrm.ts.infn.it",
+              "type": "SE"
+          }
+      }
+  },
+  "ITEP": {
+      "name": "ITEP",
+      "latitude": 55.55,
+      "longitude": 37.37,
+      "networks": {
+          "ipv6": [
+              "2001:67c:1bec:f069::/64"
+          ]
+      },
+      "country": "Russian Federation",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "psum01.itep.ru": {
+              "name": "psum01.itep.ru",
+              "type": "PS"
+          },
+          "psum02.itep.ru": {
+              "name": "psum02.itep.ru",
+              "type": "PS"
+          }
+      }
+  },
+  "JINR-LCG2": {
+      "name": "JINR-LCG2",
+      "latitude": 56.743,
+      "longitude": 37.196,
+      "networks": {
+          "ipv4": [
+              "159.93.224.0/22",
+              "159.93.39.0/24"
+          ],
+          "ipv6": [
+              "2a05:81c5:302:224::/64"
+          ]
+      },
+      "country": "Russian Federation",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "t2-pfsn1.jinr.ru": {
+              "name": "t2-pfsn1.jinr.ru",
+              "type": "PS"
+          },
+          "t2-pfsn2.jinr.ru": {
+              "name": "t2-pfsn2.jinr.ru",
+              "type": "PS"
+          },
+          "lcgsedr07.jinr.ru": {
+              "name": "lcgsedr07.jinr.ru",
+              "type": "SE"
+          },
+          "lcgsedr01.jinr.ru": {
+              "name": "lcgsedr01.jinr.ru",
+              "type": "SE"
+          }
+      }
+  },
+  "LBNL_DSD_ITB": {
+      "name": "LBNL_DSD_ITB",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "LRZ-LMU": {
+      "name": "LRZ-LMU",
+      "latitude": 48.262,
+      "longitude": 11.667,
+      "networks": {},
+      "country": "Germany",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "lcg-lrz-perfs2.grid.lrz.de": {
+              "name": "lcg-lrz-perfs2.grid.lrz.de",
+              "type": "PS"
+          },
+          "lcg-lrz-perfs1.grid.lrz.de": {
+              "name": "lcg-lrz-perfs1.grid.lrz.de",
+              "type": "PS"
+          },
+          "lcg-lrz-http.grid.lrz.de": {
+              "name": "lcg-lrz-http.grid.lrz.de",
+              "type": "SE"
+          },
+          "lcg-lrz-rootd.grid.lrz.de": {
+              "name": "lcg-lrz-rootd.grid.lrz.de",
+              "type": "SE"
+          }
+      }
+  },
+  "MPPMU": {
+      "name": "MPPMU",
+      "latitude": 48.15,
+      "longitude": 11.39,
+      "networks": {},
+      "country": "Germany",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "grid-dav.rzg.mpg.de": {
+              "name": "grid-dav.rzg.mpg.de",
+              "type": "SE"
+          },
+          "grid-dc.rzg.mpg.de": {
+              "name": "grid-dc.rzg.mpg.de",
+              "type": "SE"
+          }
+      }
+  },
+  "MWT2": {
+      "name": "MWT2",
+      "latitude": 41.779,
+      "longitude": -87.7,
+      "networks": {},
+      "country": "United States",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "iut2-net10.iu.edu": {
+              "name": "iut2-net10.iu.edu",
+              "type": "PS"
+          },
+          "iut2-net12.iu.edu": {
+              "name": "iut2-net12.iu.edu",
+              "type": "PS"
+          },
+          "iut2-net14.iu.edu": {
+              "name": "iut2-net14.iu.edu",
+              "type": "PS"
+          },
+          "iut2-net16.iu.edu": {
+              "name": "iut2-net16.iu.edu",
+              "type": "PS"
+          },
+          "mwt2-ps02.campuscluster.illinois.edu": {
+              "name": "mwt2-ps02.campuscluster.illinois.edu",
+              "type": "PS"
+          },
+          "mwt2-ps04.campuscluster.illinois.edu": {
+              "name": "mwt2-ps04.campuscluster.illinois.edu",
+              "type": "PS"
+          },
+          "uct2-net2.mwt2.org": {
+              "name": "uct2-net2.mwt2.org",
+              "type": "PS"
+          },
+          "uct2-net4.mwt2.org": {
+              "name": "uct2-net4.mwt2.org",
+              "type": "PS"
+          },
+          "iut2-net09.iu.edu": {
+              "name": "iut2-net09.iu.edu",
+              "type": "PS"
+          },
+          "iut2-net11.iu.edu": {
+              "name": "iut2-net11.iu.edu",
+              "type": "PS"
+          },
+          "iut2-net13.iu.edu": {
+              "name": "iut2-net13.iu.edu",
+              "type": "PS"
+          },
+          "iut2-net15.iu.edu": {
+              "name": "iut2-net15.iu.edu",
+              "type": "PS"
+          },
+          "mwt2-ps01.campuscluster.illinois.edu": {
+              "name": "mwt2-ps01.campuscluster.illinois.edu",
+              "type": "PS"
+          },
+          "mwt2-ps03.campuscluster.illinois.edu": {
+              "name": "mwt2-ps03.campuscluster.illinois.edu",
+              "type": "PS"
+          },
+          "uct2-net1.mwt2.org": {
+              "name": "uct2-net1.mwt2.org",
+              "type": "PS"
+          },
+          "uct2-net3.mwt2.org": {
+              "name": "uct2-net3.mwt2.org",
+              "type": "PS"
+          },
+          "webdav.mwt2.org": {
+              "name": "webdav.mwt2.org",
+              "type": "SE"
+          },
+          "fax.mwt2.org": {
+              "name": "fax.mwt2.org",
+              "type": "SE"
+          }
+      }
+  },
+  "Microsoft-Azure": {
+      "name": "Microsoft-Azure",
+      "latitude": 46.23,
+      "longitude": 6.04,
+      "networks": {
+          "ipv4": [
+              "128.142.0.0/16",
+              "188.184.128.0/17",
+              "188.185.128.0/17",
+              "188.185.48.0/20"
+          ],
+          "ipv6": [
+              "2001:1458:301::/48",
+              "2001:1458:302::/48",
+              "2001:1458:303::/48",
+              "2001:1459:301::/48",
+              "2001:1459:303::/48"
+          ]
+      },
+      "country": "Switzerland",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "NCG-INGRID-PT": {
+      "name": "NCG-INGRID-PT",
+      "latitude": 38.72,
+      "longitude": -9.13,
+      "networks": {},
+      "country": "Portugal",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "ps02.ncg.ingrid.pt": {
+              "name": "ps02.ncg.ingrid.pt",
+              "type": "PS"
+          },
+          "ps01.ncg.ingrid.pt": {
+              "name": "ps01.ncg.ingrid.pt",
+              "type": "PS"
+          },
+          "gftp01.ncg.ingrid.pt": {
+              "name": "gftp01.ncg.ingrid.pt",
+              "type": "SE"
+          },
+          "xroot01.ncg.ingrid.pt": {
+              "name": "xroot01.ncg.ingrid.pt",
+              "type": "SE"
+          }
+      }
+  },
+  "NDGF-T1": {
+      "name": "NDGF-T1",
+      "latitude": 59,
+      "longitude": 16,
+      "networks": {
+          "ipv4": [
+              "109.105.124.0/22"
+          ],
+          "ipv6": [
+              "2001:948:40::/42"
+          ]
+      },
+      "country": "Sweden",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "perfsonar-ps2.ndgf.org": {
+              "name": "perfsonar-ps2.ndgf.org",
+              "type": "PS"
+          },
+          "perfsonar-ps.ndgf.org": {
+              "name": "perfsonar-ps.ndgf.org",
+              "type": "PS"
+          },
+          "preprod-srm.ndgf.org": {
+              "name": "preprod-srm.ndgf.org",
+              "type": "SE"
+          },
+          "dav.ndgf.org": {
+              "name": "dav.ndgf.org",
+              "type": "SE"
+          },
+          "ftp1.ndgf.org": {
+              "name": "ftp1.ndgf.org",
+              "type": "SE"
+          },
+          "srm.ndgf.org": {
+              "name": "srm.ndgf.org",
+              "type": "SE"
+          }
+      }
+  },
+  "NERSC-PDSF": {
+      "name": "NERSC-PDSF",
+      "latitude": 37.8,
+      "longitude": -122.25,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "example.com.nersc-datadisk": {
+              "name": "example.com.nersc-datadisk",
+              "type": "SE"
+          }
+      }
+  },
+  "NIKHEF": {
+      "name": "NIKHEF",
+      "latitude": 52.356,
+      "longitude": 4.951,
+      "networks": {
+          "ipv6": [
+              "2001:610:108:203a::/64",
+              "2001:610:108:3017::/64",
+              "2a07:8504:120:e060::/64"
+          ]
+      },
+      "country": "Netherlands",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {}
+  },
+  "NO-NORGRID-T2": {
+      "name": "NO-NORGRID-T2",
+      "latitude": 59.94,
+      "longitude": 10.71,
+      "networks": {},
+      "country": "Norway",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "Nevis": {
+      "name": "Nevis",
+      "latitude": 41.027,
+      "longitude": -73.872,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "xenia.nevis.columbia.edu": {
+              "name": "xenia.nevis.columbia.edu",
+              "type": "SE"
+          }
+      }
+  },
+  "OUHEP_OSG": {
+      "name": "OUHEP_OSG",
+      "latitude": 35.207,
+      "longitude": -97.447,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "OU_OCHEP_SWT2": {
+      "name": "OU_OCHEP_SWT2",
+      "latitude": 35.207,
+      "longitude": -97.447,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "ps2.ochep.ou.edu": {
+              "name": "ps2.ochep.ou.edu",
+              "type": "PS"
+          },
+          "ps1.ochep.ou.edu": {
+              "name": "ps1.ochep.ou.edu",
+              "type": "PS"
+          },
+          "ps3.ochep.ou.edu": {
+              "name": "ps3.ochep.ou.edu",
+              "type": "PS"
+          }
+      }
+  },
+  "OU_OSCER_ATLAS": {
+      "name": "OU_OSCER_ATLAS",
+      "latitude": 35.207,
+      "longitude": -97.447,
+      "networks": {},
+      "country": "United States",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "dms.oscer.ou.edu": {
+              "name": "dms.oscer.ou.edu",
+              "type": "SE"
+          },
+          "se1.oscer.ou.edu": {
+              "name": "se1.oscer.ou.edu",
+              "type": "SE"
+          }
+      }
+  },
+  "PSNC": {
+      "name": "PSNC",
+      "latitude": 52.411,
+      "longitude": 16.918,
+      "networks": {},
+      "country": "Poland",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {}
+  },
+  "RAL-LCG2": {
+      "name": "RAL-LCG2",
+      "latitude": 51.57,
+      "longitude": -1.32,
+      "networks": {
+          "ipv4": [
+              "130.246.152.240/28",
+              "130.246.176.0/22"
+          ],
+          "ipv6": [
+              "2001:630:58:1820::/64"
+          ]
+      },
+      "country": "United Kingdom",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "cta-ps01-bw.scd.rl.ac.uk": {
+              "name": "cta-ps01-bw.scd.rl.ac.uk",
+              "type": "PS"
+          },
+          "lcg-ps01-bw.gridpp.rl.ac.uk": {
+              "name": "lcg-ps01-bw.gridpp.rl.ac.uk",
+              "type": "PS"
+          },
+          "lcgps02.gridpp.rl.ac.uk": {
+              "name": "lcgps02.gridpp.rl.ac.uk",
+              "type": "PS"
+          },
+          "t1-ps01-bw.gridpp.rl.ac.uk": {
+              "name": "t1-ps01-bw.gridpp.rl.ac.uk",
+              "type": "PS"
+          },
+          "cta-ps01-lt.scd.rl.ac.uk": {
+              "name": "cta-ps01-lt.scd.rl.ac.uk",
+              "type": "PS"
+          },
+          "lcgps01.gridpp.rl.ac.uk": {
+              "name": "lcgps01.gridpp.rl.ac.uk",
+              "type": "PS"
+          },
+          "lcg-ps01-lt.gridpp.rl.ac.uk": {
+              "name": "lcg-ps01-lt.gridpp.rl.ac.uk",
+              "type": "PS"
+          },
+          "t1-ps01-lt.gridpp.rl.ac.uk": {
+              "name": "t1-ps01-lt.gridpp.rl.ac.uk",
+              "type": "PS"
+          },
+          "xrootd.echo.stfc.ac.uk": {
+              "name": "xrootd.echo.stfc.ac.uk",
+              "type": "SE"
+          },
+          "webdav.echo.stfc.ac.uk": {
+              "name": "webdav.echo.stfc.ac.uk",
+              "type": "SE"
+          },
+          "rdr.echo.stfc.ac.uk": {
+              "name": "rdr.echo.stfc.ac.uk",
+              "type": "SE"
+          },
+          "antares.stfc.ac.uk": {
+              "name": "antares.stfc.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "RAL-LCG2-ECHO": {
+      "name": "RAL-LCG2-ECHO",
+      "latitude": 51.57,
+      "longitude": -1.32,
+      "networks": {
+          "ipv4": [
+              "130.246.152.240/28",
+              "130.246.176.0/22"
+          ],
+          "ipv6": [
+              "2001:630:58:1820::/64"
+          ]
+      },
+      "country": "United Kingdom",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {}
+  },
+  "RIVR.UM": {
+      "name": "RIVR.UM",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "Slovenia",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "RO-02-NIPNE": {
+      "name": "RO-02-NIPNE",
+      "latitude": 44.35,
+      "longitude": 26.03,
+      "networks": {
+          "ipv4": [
+              "81.180.86.0/24"
+          ]
+      },
+      "country": "Romania",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "atrogr009.nipne.ro": {
+              "name": "atrogr009.nipne.ro",
+              "type": "PS"
+          },
+          "atrogr007.nipne.ro": {
+              "name": "atrogr007.nipne.ro",
+              "type": "PS"
+          }
+      }
+  },
+  "RO-07-NIPNE": {
+      "name": "RO-07-NIPNE",
+      "latitude": 44.34,
+      "longitude": 26.03,
+      "networks": {
+          "ipv4": [
+              "81.180.86.0/24"
+          ]
+      },
+      "country": "Romania",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar1.nipne.ro": {
+              "name": "perfsonar1.nipne.ro",
+              "type": "PS"
+          },
+          "perfsonar2.nipne.ro": {
+              "name": "perfsonar2.nipne.ro",
+              "type": "PS"
+          },
+          "tbit00.nipne.ro": {
+              "name": "tbit00.nipne.ro",
+              "type": "SE"
+          }
+      }
+  },
+  "RO-14-ITIM": {
+      "name": "RO-14-ITIM",
+      "latitude": 46.76,
+      "longitude": 23.54,
+      "networks": {},
+      "country": "Romania",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "sonar1.itim-cj.ro": {
+              "name": "sonar1.itim-cj.ro",
+              "type": "PS"
+          },
+          "sonar2.itim-cj.ro": {
+              "name": "sonar2.itim-cj.ro",
+              "type": "PS"
+          }
+      }
+  },
+  "RO-16-UAIC": {
+      "name": "RO-16-UAIC",
+      "latitude": 47.17,
+      "longitude": 27.57,
+      "networks": {},
+      "country": "Romania",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar-grid.uaic.ro": {
+              "name": "perfsonar-grid.uaic.ro",
+              "type": "PS"
+          },
+          "perfsonar2-grid.uaic.ro": {
+              "name": "perfsonar2-grid.uaic.ro",
+              "type": "PS"
+          }
+      }
+  },
+  "RRC-KI-T1": {
+      "name": "RRC-KI-T1",
+      "latitude": 55.794,
+      "longitude": 37.472,
+      "networks": {
+          "ipv4": [
+              "144.206.224.0/24",
+              "144.206.236.0/24",
+              "144.206.255.128/26"
+          ],
+          "ipv6": [
+              "2001:67c:1bec:224::/64",
+              "2001:67c:1bec:236::/64",
+              "2001:67c:1bec::255:0/112"
+          ]
+      },
+      "country": "Russian Federation",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "tape-sdrm.t1.grid.kiae.ru": {
+              "name": "tape-sdrm.t1.grid.kiae.ru",
+              "type": "SE"
+          },
+          "btw-bw.t1.grid.kiae.ru": {
+              "name": "btw-bw.t1.grid.kiae.ru",
+              "type": "PS"
+          },
+          "btw-lat.t1.grid.kiae.ru": {
+              "name": "btw-lat.t1.grid.kiae.ru",
+              "type": "PS"
+          },
+          "sdrm.t1.grid.kiae.ru": {
+              "name": "sdrm.t1.grid.kiae.ru",
+              "type": "SE"
+          }
+      }
+  },
+  "RU-Protvino-IHEP": {
+      "name": "RU-Protvino-IHEP",
+      "latitude": 55.5,
+      "longitude": 37.3,
+      "networks": {
+          "ipv4": [
+              "194.190.165.0/24"
+          ],
+          "ipv6": [
+              "2001:678:7d8:2000::/52"
+          ]
+      },
+      "country": "Russian Federation",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "ps0001.m45.ihep.su": {
+              "name": "ps0001.m45.ihep.su",
+              "type": "PS"
+          },
+          "ps0002.m45.ihep.su": {
+              "name": "ps0002.m45.ihep.su",
+              "type": "PS"
+          },
+          "se0001.m45.ihep.su": {
+              "name": "se0001.m45.ihep.su",
+              "type": "SE"
+          },
+          "se0002.m45.ihep.su": {
+              "name": "se0002.m45.ihep.su",
+              "type": "SE"
+          }
+      }
+  },
+  "SAMPA": {
+      "name": "SAMPA",
+      "latitude": -23.562,
+      "longitude": -46.735,
+      "networks": {},
+      "country": "Brazil",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "sampaps02.if.usp.br": {
+              "name": "sampaps02.if.usp.br",
+              "type": "PS"
+          },
+          "sampaps01.if.usp.br": {
+              "name": "sampaps01.if.usp.br",
+              "type": "PS"
+          },
+          "sampaeos.if.usp.br": {
+              "name": "sampaeos.if.usp.br",
+              "type": "SE"
+          }
+      }
+  },
+  "SARA-MATRIX": {
+      "name": "SARA-MATRIX",
+      "latitude": 52.356,
+      "longitude": 4.953,
+      "networks": {
+          "ipv6": [
+              "2001:610:108:203a::/64",
+              "2001:610:108:3017::/64",
+              "2a07:8504:120:e060::/64"
+          ]
+      },
+      "country": "Netherlands",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "perfsonar-bandwidth.grid.surfsara.nl": {
+              "name": "perfsonar-bandwidth.grid.surfsara.nl",
+              "type": "PS"
+          },
+          "perfsonar-latency.grid.surfsara.nl": {
+              "name": "perfsonar-latency.grid.surfsara.nl",
+              "type": "PS"
+          },
+          "webdav.grid.surfsara.nl": {
+              "name": "webdav.grid.surfsara.nl",
+              "type": "SE"
+          },
+          "xrootd.grid.sara.nl": {
+              "name": "xrootd.grid.sara.nl",
+              "type": "SE"
+          },
+          "srm.grid.sara.nl": {
+              "name": "srm.grid.sara.nl",
+              "type": "SE"
+          }
+      }
+  },
+  "SE-SNIC-T2": {
+      "name": "SE-SNIC-T2",
+      "latitude": 59.34,
+      "longitude": 18.07,
+      "networks": {},
+      "country": "Sweden",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "webdav.swegrid.se": {
+              "name": "webdav.swegrid.se",
+              "type": "SE"
+          },
+          "xrootd-atlas.swegrid.se": {
+              "name": "xrootd-atlas.swegrid.se",
+              "type": "SE"
+          }
+      }
+  },
+  "SEAL": {
+      "name": "SEAL",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "SWT2_CPB": {
+      "name": "SWT2_CPB",
+      "latitude": 32.771,
+      "longitude": -97.291,
+      "networks": {},
+      "country": "United States",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "psuta02.atlas-swt2.org": {
+              "name": "psuta02.atlas-swt2.org",
+              "type": "PS"
+          },
+          "psuta01.atlas-swt2.org": {
+              "name": "psuta01.atlas-swt2.org",
+              "type": "PS"
+          },
+          "xrdb.local": {
+              "name": "xrdb.local",
+              "type": "SE"
+          },
+          "gridftp.atlas-swt2.org": {
+              "name": "gridftp.atlas-swt2.org",
+              "type": "SE"
+          }
+      }
+  },
+  "SiGNET": {
+      "name": "SiGNET",
+      "latitude": 46.04,
+      "longitude": 14.49,
+      "networks": {},
+      "country": "Slovenia",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "tau.ijs.si": {
+              "name": "tau.ijs.si",
+              "type": "PS"
+          }
+      }
+  },
+  "TACC": {
+      "name": "TACC",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "TECHNION-HEP": {
+      "name": "TECHNION-HEP",
+      "latitude": 33,
+      "longitude": 35,
+      "networks": {},
+      "country": "Israel",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "tech-ps.hep.technion.ac.il": {
+              "name": "tech-ps.hep.technion.ac.il",
+              "type": "PS"
+          },
+          "tech-gftp.hep.technion.ac.il": {
+              "name": "tech-gftp.hep.technion.ac.il",
+              "type": "SE"
+          }
+      }
+  },
+  "TOKYO-LCG2": {
+      "name": "TOKYO-LCG2",
+      "latitude": 35.714,
+      "longitude": 139.763,
+      "networks": {},
+      "country": "Japan",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar2.icepp.jp": {
+              "name": "perfsonar2.icepp.jp",
+              "type": "PS"
+          },
+          "perfsonar1.icepp.jp": {
+              "name": "perfsonar1.icepp.jp",
+              "type": "PS"
+          },
+          "lcg-se01.icepp.jp": {
+              "name": "lcg-se01.icepp.jp",
+              "type": "SE"
+          }
+      }
+  },
+  "TR-10-ULAKBIM": {
+      "name": "TR-10-ULAKBIM",
+      "latitude": 39.99,
+      "longitude": 33.02,
+      "networks": {},
+      "country": "Turkey",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "torik1.ulakbim.gov.tr": {
+              "name": "torik1.ulakbim.gov.tr",
+              "type": "SE"
+          }
+      }
+  },
+  "TRIUMF-LCG2": {
+      "name": "TRIUMF-LCG2",
+      "latitude": 49.25,
+      "longitude": -123.23,
+      "networks": {
+          "ipv4": [
+              "206.12.1.0/24",
+              "206.12.9.0/29",
+              "206.12.9.128/25",
+              "206.12.9.64/28"
+          ],
+          "ipv6": [
+              "2607:f8f0:660:1::/64",
+              "2607:f8f0:660:2::/64",
+              "2607:f8f0:660:3::/64"
+          ]
+      },
+      "country": "Canada",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "ps-bandwidth.lhcmon.triumf.ca": {
+              "name": "ps-bandwidth.lhcmon.triumf.ca",
+              "type": "PS"
+          },
+          "ps-latency.lhcmon.triumf.ca": {
+              "name": "ps-latency.lhcmon.triumf.ca",
+              "type": "PS"
+          },
+          "webdav-lan.lcg.triumf.ca": {
+              "name": "webdav-lan.lcg.triumf.ca",
+              "type": "SE"
+          },
+          "webdav.lcg.triumf.ca": {
+              "name": "webdav.lcg.triumf.ca",
+              "type": "SE"
+          },
+          "xrootd.lcg.triumf.ca": {
+              "name": "xrootd.lcg.triumf.ca",
+              "type": "SE"
+          },
+          "srm.triumf.ca": {
+              "name": "srm.triumf.ca",
+              "type": "SE"
+          }
+      }
+  },
+  "TUDresden-ZIH": {
+      "name": "TUDresden-ZIH",
+      "latitude": 51.029,
+      "longitude": 13.736,
+      "networks": {},
+      "country": "Germany",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "TW-FTT": {
+      "name": "TW-FTT",
+      "latitude": 25.07,
+      "longitude": 121.62,
+      "networks": {},
+      "country": "Taiwan",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {}
+  },
+  "Taiwan-LCG2": {
+      "name": "Taiwan-LCG2",
+      "latitude": 25.07,
+      "longitude": 121.62,
+      "networks": {
+          "ipv4": [
+              "117.103.96.0/20",
+              "140.109.102.0/24",
+              "140.109.98.0/24",
+              "202.140.160.0/19",
+              "202.169.168.0/22"
+          ],
+          "ipv6": [
+              "2400:4500:0:1::/64",
+              "2400:4500:0:2::/64",
+              "2400:4500::/64"
+          ]
+      },
+      "country": "Taiwan",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "lhc-bandwidth.twgrid.org": {
+              "name": "lhc-bandwidth.twgrid.org",
+              "type": "PS"
+          },
+          "lhc-latency.twgrid.org": {
+              "name": "lhc-latency.twgrid.org",
+              "type": "PS"
+          },
+          "f-dpm000.grid.sinica.edu.tw": {
+              "name": "f-dpm000.grid.sinica.edu.tw",
+              "type": "SE"
+          },
+          "eos01.grid.sinica.edu.tw": {
+              "name": "eos01.grid.sinica.edu.tw",
+              "type": "SE"
+          }
+      }
+  },
+  "UAM-LCG2": {
+      "name": "UAM-LCG2",
+      "latitude": 40.546,
+      "longitude": -3.694,
+      "networks": {
+          "ipv4": [
+              "150.244.246.0/23"
+          ]
+      },
+      "country": "Spain",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar02.ft.uam.es": {
+              "name": "perfsonar02.ft.uam.es",
+              "type": "PS"
+          },
+          "perfsonar01.ft.uam.es": {
+              "name": "perfsonar01.ft.uam.es",
+              "type": "PS"
+          },
+          "griddc03.ft.uam.es": {
+              "name": "griddc03.ft.uam.es",
+              "type": "SE"
+          },
+          "xrootd.ft.uam.es": {
+              "name": "xrootd.ft.uam.es",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-GRIDPP-CLOUD-IC": {
+      "name": "UKI-GRIDPP-CLOUD-IC",
+      "latitude": 51.499,
+      "longitude": -0.179,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "UKI-LT2-Brunel": {
+      "name": "UKI-LT2-Brunel",
+      "latitude": 51.531,
+      "longitude": -0.474,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "UKI-LT2-IC-HEP": {
+      "name": "UKI-LT2-IC-HEP",
+      "latitude": 51.499,
+      "longitude": -0.179,
+      "networks": {
+          "ipv4": [
+              "146.179.244.0/24"
+          ]
+      },
+      "country": "United Kingdom",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "lt2ps00-bw.grid.hep.ph.ic.ac.uk": {
+              "name": "lt2ps00-bw.grid.hep.ph.ic.ac.uk",
+              "type": "PS"
+          },
+          "lt2ps00-lat.grid.hep.ph.ic.ac.uk": {
+              "name": "lt2ps00-lat.grid.hep.ph.ic.ac.uk",
+              "type": "PS"
+          }
+      }
+  },
+  "UKI-LT2-QMUL": {
+      "name": "UKI-LT2-QMUL",
+      "latitude": 51.523,
+      "longitude": -0.041,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar-bandwidth.esc.qmul.ac.uk": {
+              "name": "perfsonar-bandwidth.esc.qmul.ac.uk",
+              "type": "PS"
+          },
+          "perfsonar-latency.esc.qmul.ac.uk": {
+              "name": "perfsonar-latency.esc.qmul.ac.uk",
+              "type": "PS"
+          },
+          "se03.esc.qmul.ac.uk": {
+              "name": "se03.esc.qmul.ac.uk",
+              "type": "SE"
+          },
+          "xrootd01.esc.qmul.ac.uk": {
+              "name": "xrootd01.esc.qmul.ac.uk",
+              "type": "SE"
+          },
+          "webdav.esc.qmul.ac.uk": {
+              "name": "webdav.esc.qmul.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-LT2-RHUL": {
+      "name": "UKI-LT2-RHUL",
+      "latitude": 51.425,
+      "longitude": -0.567,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfson1.ppgrid1.rhul.ac.uk": {
+              "name": "perfson1.ppgrid1.rhul.ac.uk",
+              "type": "PS"
+          },
+          "perfson3.ppgrid1.rhul.ac.uk": {
+              "name": "perfson3.ppgrid1.rhul.ac.uk",
+              "type": "PS"
+          }
+      }
+  },
+  "UKI-NORTHGRID-LANCS-HEP": {
+      "name": "UKI-NORTHGRID-LANCS-HEP",
+      "latitude": 54.012,
+      "longitude": -2.794,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "pygrid-sonar1.lancs.ac.uk": {
+              "name": "pygrid-sonar1.lancs.ac.uk",
+              "type": "PS"
+          },
+          "pygrid-sonar2.lancs.ac.uk": {
+              "name": "pygrid-sonar2.lancs.ac.uk",
+              "type": "PS"
+          },
+          "xgate.hec.lancs.ac.uk": {
+              "name": "xgate.hec.lancs.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-NORTHGRID-LIV-HEP": {
+      "name": "UKI-NORTHGRID-LIV-HEP",
+      "latitude": 53.4,
+      "longitude": -3,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "hepsonar1.ph.liv.ac.uk": {
+              "name": "hepsonar1.ph.liv.ac.uk",
+              "type": "PS"
+          },
+          "hepsonar2.ph.liv.ac.uk": {
+              "name": "hepsonar2.ph.liv.ac.uk",
+              "type": "PS"
+          },
+          "hepgrid11.ph.liv.ac.uk": {
+              "name": "hepgrid11.ph.liv.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-NORTHGRID-MAN-HEP": {
+      "name": "UKI-NORTHGRID-MAN-HEP",
+      "latitude": 53.47,
+      "longitude": -2.23,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar-bw.tier2.hep.manchester.ac.uk": {
+              "name": "perfsonar-bw.tier2.hep.manchester.ac.uk",
+              "type": "PS"
+          },
+          "perfsonar-lt.tier2.hep.manchester.ac.uk": {
+              "name": "perfsonar-lt.tier2.hep.manchester.ac.uk",
+              "type": "PS"
+          },
+          "bohr3226.tier2.hep.manchester.ac.uk": {
+              "name": "bohr3226.tier2.hep.manchester.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-NORTHGRID-SHEF-HEP": {
+      "name": "UKI-NORTHGRID-SHEF-HEP",
+      "latitude": 53.381,
+      "longitude": -1.486,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "lcgperf.shef.ac.uk": {
+              "name": "lcgperf.shef.ac.uk",
+              "type": "PS"
+          }
+      }
+  },
+  "UKI-SCOTGRID-DURHAM": {
+      "name": "UKI-SCOTGRID-DURHAM",
+      "latitude": 54.767,
+      "longitude": -1.575,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "perfmon.dur.scotgrid.ac.uk": {
+              "name": "perfmon.dur.scotgrid.ac.uk",
+              "type": "PS"
+          },
+          "perfsonar.dur.scotgrid.ac.uk": {
+              "name": "perfsonar.dur.scotgrid.ac.uk",
+              "type": "PS"
+          },
+          "se01.dur.scotgrid.ac.uk": {
+              "name": "se01.dur.scotgrid.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-SCOTGRID-ECDF": {
+      "name": "UKI-SCOTGRID-ECDF",
+      "latitude": 55.855,
+      "longitude": -3.2,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "gridpp-ps-band.ecdf.ed.ac.uk": {
+              "name": "gridpp-ps-band.ecdf.ed.ac.uk",
+              "type": "PS"
+          },
+          "gridpp-ps-lat.ecdf.ed.ac.uk": {
+              "name": "gridpp-ps-lat.ecdf.ed.ac.uk",
+              "type": "PS"
+          },
+          "srm-rdf.gridpp.ecdf.ed.ac.uk": {
+              "name": "srm-rdf.gridpp.ecdf.ed.ac.uk",
+              "type": "SE"
+          },
+          "srm.glite.ecdf.ed.ac.uk": {
+              "name": "srm.glite.ecdf.ed.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-SCOTGRID-ECDF-RDF": {
+      "name": "UKI-SCOTGRID-ECDF-RDF",
+      "latitude": 55.855,
+      "longitude": -3.2,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "UKI-SCOTGRID-GLASGOW": {
+      "name": "UKI-SCOTGRID-GLASGOW",
+      "latitude": 55.87,
+      "longitude": -4.29,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "ps001.gla.scotgrid.ac.uk": {
+              "name": "ps001.gla.scotgrid.ac.uk",
+              "type": "PS"
+          },
+          "ps002.gla.scotgrid.ac.uk": {
+              "name": "ps002.gla.scotgrid.ac.uk",
+              "type": "PS"
+          },
+          "cephc05.gla.scotgrid.ac.uk": {
+              "name": "cephc05.gla.scotgrid.ac.uk",
+              "type": "SE"
+          },
+          "cephc04.gla.scotgrid.ac.uk": {
+              "name": "cephc04.gla.scotgrid.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-SOUTHGRID-BHAM-HEP": {
+      "name": "UKI-SOUTHGRID-BHAM-HEP",
+      "latitude": 52.46,
+      "longitude": -1.923,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "epgperf.ph.bham.ac.uk": {
+              "name": "epgperf.ph.bham.ac.uk",
+              "type": "PS"
+          },
+          "epgr07.ph.bham.ac.uk": {
+              "name": "epgr07.ph.bham.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-SOUTHGRID-OX-HEP": {
+      "name": "UKI-SOUTHGRID-OX-HEP",
+      "latitude": 51.818,
+      "longitude": -1.305,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "t2ps-bandwidth2.physics.ox.ac.uk": {
+              "name": "t2ps-bandwidth2.physics.ox.ac.uk",
+              "type": "PS"
+          },
+          "t2ps-bandwidth.physics.ox.ac.uk": {
+              "name": "t2ps-bandwidth.physics.ox.ac.uk",
+              "type": "PS"
+          },
+          "t2ps-latency2.physics.ox.ac.uk": {
+              "name": "t2ps-latency2.physics.ox.ac.uk",
+              "type": "PS"
+          },
+          "t2ps-latency.physics.ox.ac.uk": {
+              "name": "t2ps-latency.physics.ox.ac.uk",
+              "type": "PS"
+          },
+          "t2xroot01.physics.ox.ac.uk": {
+              "name": "t2xroot01.physics.ox.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-SOUTHGRID-RALPP": {
+      "name": "UKI-SOUTHGRID-RALPP",
+      "latitude": 51.57,
+      "longitude": -1.31,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "heplnx130.pp.rl.ac.uk": {
+              "name": "heplnx130.pp.rl.ac.uk",
+              "type": "PS"
+          },
+          "hep-ps-bw-bp.pp.rl.ac.uk": {
+              "name": "hep-ps-bw-bp.pp.rl.ac.uk",
+              "type": "PS"
+          },
+          "heplnx129.pp.rl.ac.uk": {
+              "name": "heplnx129.pp.rl.ac.uk",
+              "type": "PS"
+          },
+          "hep-ps-lt-bp.pp.rl.ac.uk": {
+              "name": "hep-ps-lt-bp.pp.rl.ac.uk",
+              "type": "PS"
+          },
+          "mover.pp.rl.ac.uk": {
+              "name": "mover.pp.rl.ac.uk",
+              "type": "SE"
+          }
+      }
+  },
+  "UKI-SOUTHGRID-SUSX": {
+      "name": "UKI-SOUTHGRID-SUSX",
+      "latitude": 50.867,
+      "longitude": -0.08,
+      "networks": {},
+      "country": "United Kingdom",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "grid-perfsonar.hpc.susx.ac.uk": {
+              "name": "grid-perfsonar.hpc.susx.ac.uk",
+              "type": "PS"
+          }
+      }
+  },
+  "UM6P": {
+      "name": "UM6P",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "Morocco",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "UNI-BONN": {
+      "name": "UNI-BONN",
+      "latitude": 50.728,
+      "longitude": 7.089,
+      "networks": {},
+      "country": "Germany",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "xrootd.physik.uni-bonn.de": {
+              "name": "xrootd.physik.uni-bonn.de",
+              "type": "SE"
+          }
+      }
+  },
+  "UNI-DORTMUND": {
+      "name": "UNI-DORTMUND",
+      "latitude": 51.29,
+      "longitude": 7.24,
+      "networks": {},
+      "country": "Germany",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "UNI-FREIBURG": {
+      "name": "UNI-FREIBURG",
+      "latitude": 48,
+      "longitude": 7.85,
+      "networks": {},
+      "country": "Germany",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "ps02.bfg.uni-freiburg.de": {
+              "name": "ps02.bfg.uni-freiburg.de",
+              "type": "PS"
+          },
+          "ps01.bfg.uni-freiburg.de": {
+              "name": "ps01.bfg.uni-freiburg.de",
+              "type": "PS"
+          },
+          "webdav.bfg.uni-freiburg.de": {
+              "name": "webdav.bfg.uni-freiburg.de",
+              "type": "SE"
+          },
+          "sedoor1.bfg.uni-freiburg.de": {
+              "name": "sedoor1.bfg.uni-freiburg.de",
+              "type": "SE"
+          }
+      }
+  },
+  "UNI-SIEGEN-HEP": {
+      "name": "UNI-SIEGEN-HEP",
+      "latitude": 50.87,
+      "longitude": 8.03,
+      "networks": {},
+      "country": "Germany",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "UNIBE-LHEP": {
+      "name": "UNIBE-LHEP",
+      "latitude": 46.57,
+      "longitude": 7.28,
+      "networks": {},
+      "country": "Switzerland",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {}
+  },
+  "UNICPH-NBI": {
+      "name": "UNICPH-NBI",
+      "latitude": 59,
+      "longitude": 16,
+      "networks": {
+          "ipv4": [
+              "109.105.124.0/22"
+          ],
+          "ipv6": [
+              "2001:948:40::/42"
+          ]
+      },
+      "country": "Sweden",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "UNIGE-DPNC": {
+      "name": "UNIGE-DPNC",
+      "latitude": 46.2,
+      "longitude": 6.14,
+      "networks": {},
+      "country": "Switzerland",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "Vega": {
+      "name": "Vega",
+      "latitude": 46.04,
+      "longitude": 14.49,
+      "networks": {},
+      "country": "Slovenia",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {}
+  },
+  "WEIZMANN-LCG2": {
+      "name": "WEIZMANN-LCG2",
+      "latitude": 31.9,
+      "longitude": 34.8,
+      "networks": {},
+      "country": "Israel",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {}
+  },
+  "WISC-ATLAS": {
+      "name": "WISC-ATLAS",
+      "latitude": 43.074,
+      "longitude": -89.5,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "WT2": {
+      "name": "WT2",
+      "latitude": 37.425,
+      "longitude": -122.165,
+      "networks": {},
+      "country": "United States",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "psnr-farm04.slac.stanford.edu": {
+              "name": "psnr-farm04.slac.stanford.edu",
+              "type": "PS"
+          },
+          "psnr-farm10.slac.stanford.edu": {
+              "name": "psnr-farm10.slac.stanford.edu",
+              "type": "PS"
+          },
+          "atlrdr1.slac.stanford.edu": {
+              "name": "atlrdr1.slac.stanford.edu",
+              "type": "SE"
+          },
+          "osggridftp01.slac.stanford.edu": {
+              "name": "osggridftp01.slac.stanford.edu",
+              "type": "SE"
+          }
+      }
+  },
+  "ZA-CHPC": {
+      "name": "ZA-CHPC",
+      "latitude": -33.955,
+      "longitude": 18.475,
+      "networks": {},
+      "country": "South Africa",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "ZA-WITS-CORE": {
+      "name": "ZA-WITS-CORE",
+      "latitude": -26.193,
+      "longitude": 28.032,
+      "networks": {},
+      "country": "South Africa",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "ifae": {
+      "name": "ifae",
+      "latitude": 41.5,
+      "longitude": 2.11,
+      "networks": {
+          "ipv4": [
+              "193.109.172.0/24"
+          ],
+          "ipv6": [
+              "2001:67c:1148:200::/64",
+              "2001:67c:1148:201::/64",
+              "2001:67c:1148:202::/64",
+              "2001:67c:1148:301::/64"
+          ]
+      },
+      "country": "Spain",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "ifaeperfsonar-bandwidth.pic.es": {
+              "name": "ifaeperfsonar-bandwidth.pic.es",
+              "type": "PS"
+          },
+          "ifaeperfsonar-bandwitdth.pic.es": {
+              "name": "ifaeperfsonar-bandwitdth.pic.es",
+              "type": "PS"
+          },
+          "psb-ifae.pic.es": {
+              "name": "psb-ifae.pic.es",
+              "type": "PS"
+          },
+          "ifaeperfsonar-latency.pic.es": {
+              "name": "ifaeperfsonar-latency.pic.es",
+              "type": "PS"
+          },
+          "psl-ifae.pic.es": {
+              "name": "psl-ifae.pic.es",
+              "type": "PS"
+          },
+          "webdav-at2.pic.es": {
+              "name": "webdav-at2.pic.es",
+              "type": "SE"
+          },
+          "xrootd-at2-door.pic.es": {
+              "name": "xrootd-at2-door.pic.es",
+              "type": "SE"
+          }
+      }
+  },
+  "mainz": {
+      "name": "mainz",
+      "latitude": 50,
+      "longitude": 8.27,
+      "networks": {},
+      "country": "Germany",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "gdav1.physik.uni-mainz.de": {
+              "name": "gdav1.physik.uni-mainz.de",
+              "type": "SE"
+          }
+      }
+  },
+  "mainzgrid": {
+      "name": "mainzgrid",
+      "latitude": 50,
+      "longitude": 8.27,
+      "networks": {},
+      "country": "Germany",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "pic": {
+      "name": "pic",
+      "latitude": 41.5,
+      "longitude": 2.11,
+      "networks": {
+          "ipv4": [
+              "193.109.172.0/24"
+          ],
+          "ipv6": [
+              "2001:67c:1148:200::/64",
+              "2001:67c:1148:201::/64",
+              "2001:67c:1148:202::/64",
+              "2001:67c:1148:301::/64"
+          ]
+      },
+      "country": "Spain",
+      "tier": 1,
+      "vo": "atlas",
+      "services": {
+          "picperfsonar-bandwidth.pic.es": {
+              "name": "picperfsonar-bandwidth.pic.es",
+              "type": "PS"
+          },
+          "psb01.pic.es": {
+              "name": "psb01.pic.es",
+              "type": "PS"
+          },
+          "picperfsonar-latency.pic.es": {
+              "name": "picperfsonar-latency.pic.es",
+              "type": "PS"
+          },
+          "psl01.pic.es": {
+              "name": "psl01.pic.es",
+              "type": "PS"
+          },
+          "webdav-at1.pic.es": {
+              "name": "webdav-at1.pic.es",
+              "type": "SE"
+          },
+          "xrootd-at1-door.pic.es": {
+              "name": "xrootd-at1-door.pic.es",
+              "type": "SE"
+          },
+          "srmatlas.pic.es": {
+              "name": "srmatlas.pic.es",
+              "type": "SE"
+          }
+      }
+  },
+  "praguelcg2": {
+      "name": "praguelcg2",
+      "latitude": 50.21,
+      "longitude": 14.78,
+      "networks": {
+          "ipv4": [
+              "195.113.219.0/25"
+          ]
+      },
+      "country": "Czechia",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "ps02-b.farm.particle.cz": {
+              "name": "ps02-b.farm.particle.cz",
+              "type": "PS"
+          },
+          "ps100.farm.particle.cz": {
+              "name": "ps100.farm.particle.cz",
+              "type": "PS"
+          },
+          "ps01-l.farm.particle.cz": {
+              "name": "ps01-l.farm.particle.cz",
+              "type": "PS"
+          },
+          "se1.farm.particle.cz": {
+              "name": "se1.farm.particle.cz",
+              "type": "SE"
+          },
+          "dcache.du.cesnet.cz": {
+              "name": "dcache.du.cesnet.cz",
+              "type": "SE"
+          }
+      }
+  },
+  "ru-Moscow-MEPHI-LCG2": {
+      "name": "ru-Moscow-MEPHI-LCG2",
+      "latitude": 55,
+      "longitude": 37,
+      "networks": {},
+      "country": "Russian Federation",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "se02.lxfarm.mephi.ru": {
+              "name": "se02.lxfarm.mephi.ru",
+              "type": "SE"
+          }
+      }
+  },
+  "ru-PNPI": {
+      "name": "ru-PNPI",
+      "latitude": 59.596,
+      "longitude": 30.111,
+      "networks": {
+          "ipv4": [
+              "144.206.131.0/24",
+              "212.193.96.0/26"
+          ],
+          "ipv6": [
+              "2001:67c:1bdc:100::/64",
+              "2001:67c:1bdc:101::/64",
+              "2001:67c:1bdc:102::/64",
+              "2001:67c:1bdc:200::/64",
+              "2001:67c:1bdc:201::/64"
+          ]
+      },
+      "country": "Russian Federation",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar.pnpi.nw.ru": {
+              "name": "perfsonar.pnpi.nw.ru",
+              "type": "PS"
+          }
+      }
+  },
+  "ru-PNPI_NoXCACHE": {
+      "name": "ru-PNPI_NoXCACHE",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "Russian Federation",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {}
+  },
+  "ru-PNPI_XCACHE": {
+      "name": "ru-PNPI_XCACHE",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "Russian Federation",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "v008.pnpi.nw.ru": {
+              "name": "v008.pnpi.nw.ru",
+              "type": "SE"
+          }
+      }
+  },
+  "ru-PNPI_XCACHE_NODES": {
+      "name": "ru-PNPI_XCACHE_NODES",
+      "latitude": 0,
+      "longitude": 0,
+      "networks": {},
+      "country": "Russian Federation",
+      "tier": 3,
+      "vo": "atlas",
+      "services": {
+          "v010.pnpi.nw.ru": {
+              "name": "v010.pnpi.nw.ru",
+              "type": "SE"
+          }
+      }
+  },
+  "wuppertalprod": {
+      "name": "wuppertalprod",
+      "latitude": 51.245,
+      "longitude": 7.149,
+      "networks": {
+          "ipv4": [
+              "132.195.124.0/23"
+          ]
+      },
+      "country": "Germany",
+      "tier": 2,
+      "vo": "atlas",
+      "services": {
+          "perfsonar.pleiades.uni-wuppertal.de": {
+              "name": "perfsonar.pleiades.uni-wuppertal.de",
+              "type": "PS"
+          },
+          "grid-se.physik.uni-wuppertal.de": {
+              "name": "grid-se.physik.uni-wuppertal.de",
+              "type": "SE"
+          }
+      }
+  }
+}
