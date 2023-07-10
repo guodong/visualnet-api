@@ -1,20 +1,23 @@
-image: gcr.io/kaniko-project/executor:debug
-
 stages:
-  - build-and-push
+  - assemble
   - deploy
 
-build-and-push-job:
-  stage: build-and-push
+push:
+  stage: assemble
   image: gcr.io/kaniko-project/executor:debug
   script:
-    - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
-    - /kaniko/executor --cache=true --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $CI_REGISTRY_IMAGE:${CI_COMMIT_SHA:0:8} --destination $CI_REGISTRY_IMAGE:latest
+  - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+  - /kaniko/executor --cache=true --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $CI_REGISTRY_IMAGE:${CI_COMMIT_SHA:0:8} --destination $CI_REGISTRY_IMAGE:latest
 
-deploy-helm:
-  image: alpine/helm:3.10.1
-  script:
-    - helm upgrade visualnet-api ./ --cleanup-on-fail -i -n visualnet-api --version=0.1.0 -f values.yaml
+deploy:
+  only:
+    refs:
+      - master
+  needs:
+    - push
+  stage: deploy
+  image: bitnami/kubectl
   environment:
     name: production
-
+  script:
+    - kubectl set image deployment visualnet-api visualnet-api=${CI_REGISTRY_IMAGE}:${CI_COMMIT_SHA:0:8}

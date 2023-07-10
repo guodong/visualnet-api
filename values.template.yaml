@@ -8,3 +8,12 @@ agent:
   ec_rule:
   - src_prefix: "{}/30"
     dst_prefix: "{}/30"
+ingress:
+  enabled: true
+  annotations:
+    kubernetes.io/ingress.class: haproxy
+  hosts: ["visualnet-api.nrp-nautilus.io"]
+  pathSuffix: ''
+  tls:
+    - hosts:
+      - visualnet-api.nrp-nautilus.io
