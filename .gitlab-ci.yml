@@ -3,12 +3,9 @@ image:
   entrypoint: ["/bin/sh", "-c"]
 
 deploy-helm:
-  image: bitnami/kubectl
   script:
-    - kubectl get pods -n alto
     - apk add gettext
     - envsubst < values.template.yaml > values.yaml
-    # Only test if helm chart can work, not really install
     - helm upgrade visualnet-api ./chart --cleanup-on-fail -i -n alto --version=0.1.0 -f values.yaml
   environment:
-    name: production
+    name: openalto
