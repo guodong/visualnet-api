@@ -1,19 +1,2 @@
 applicationName: visualnet-api
 domain: visualnet-api.nrp-nautilus.io
-agent:
-  class: alto.agent.g2.G2Agent
-  base_uri: https://g2.nrp-nautilus.io/api/
-  username: admin
-  password: admin
-  ec_rule:
-  - src_prefix: "{}/30"
-    dst_prefix: "{}/30"
-ingress:
-  enabled: true
-  annotations:
-    kubernetes.io/ingress.class: haproxy
-  hosts: ["visualnet-api.nrp-nautilus.io"]
-  pathSuffix: ''
-  tls:
-    - hosts:
-      - visualnet-api.nrp-nautilus.io

@@ -1,0 +1,8 @@
+name: visualnet-api
+description: Helm Chart for visualnet-api Deployment
+version: 0.1.0
+apiVersion: v1
+keywords:
+  - visualnet-api
+home: https://openalto.org
+kubeVersions: '>=1.17.0-0'

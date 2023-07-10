@@ -1,23 +1,12 @@
-stages:
-  - assemble
-  - deploy
+image:
+  name: alpine/helm:3.10.1
+  entrypoint: ["/bin/sh", "-c"]
 
-push:
-  stage: assemble
-  image: gcr.io/kaniko-project/executor:debug
+deploy-helm:
   script:
-  - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
-  - /kaniko/executor --cache=true --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $CI_REGISTRY_IMAGE:${CI_COMMIT_SHA:0:8} --destination $CI_REGISTRY_IMAGE:latest
-
-deploy:
-  only:
-    refs:
-      - master
-  needs:
-    - push
-  stage: deploy
-  image: bitnami/kubectl
+    - apk add gettext
+    - envsubst < values.template.yaml > values.yaml
+    # Only test if helm chart can work, not really install
+    - helm upgrade visualnet-api ./chart --cleanup-on-fail -i -n alto --version=0.1.0 -f values.yaml
   environment:
     name: production
-  script:
-    - kubectl set image deployment visualnet-api visualnet-api=${CI_REGISTRY_IMAGE}:${CI_COMMIT_SHA:0:8}
