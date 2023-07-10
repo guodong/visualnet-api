@@ -4,5 +4,7 @@ version: 0.1.0
 apiVersion: v1
 keywords:
   - visualnet-api
+sources:
+- https://gitlab.nrp-nautilus.io/alto/visualnet-api
 home: https://openalto.org
 kubeVersions: '>=1.17.0-0'

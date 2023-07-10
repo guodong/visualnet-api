@@ -30,6 +30,7 @@ spec:
   - hosts:
     - {{ .Values.domain }}
 ---
+apiVersion: v1
 kind: Service
 metadata:
   labels:
@@ -42,3 +43,27 @@ spec:
       targetPort: 4000
   selector:
     app: {{ .Values.applicationName }}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: {{ .Values.applicationName }}
+  name: {{ .Values.applicationName }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ .Values.applicationName }}
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.applicationName }}
+    spec:
+      containers:
+          image: gitlab-registry.nrp-nautilus.io/gd/visualnet-api
+          name: {{ .Values.applicationName }}
+      restartPolicy: Always
+status: {}
