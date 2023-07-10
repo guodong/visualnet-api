@@ -3,6 +3,7 @@ image:
   entrypoint: ["/bin/sh", "-c"]
 
 deploy-helm:
+  image: bitnami/kubectl
   script:
     - kubectl get pods
     - apk add gettext
