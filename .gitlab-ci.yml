@@ -1,4 +1,4 @@
-image: gitlab-registry.nrp-nautilus.io/gd/visualnet-api
+image: gcr.io/kaniko-project/executor:debug
 
 stages:
   - build-and-push
