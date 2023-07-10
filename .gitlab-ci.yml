@@ -4,6 +4,7 @@ image:
 
 deploy-helm:
   script:
+    - kubectl get pods
     - apk add gettext
     - envsubst < values.template.yaml > values.yaml
     # Only test if helm chart can work, not really install
