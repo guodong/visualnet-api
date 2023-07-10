@@ -6,19 +6,15 @@ stages:
 
 build-and-push-job:
   stage: build-and-push
+  image: gcr.io/kaniko-project/executor:debug
   script:
     - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
     - /kaniko/executor --cache=true --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $CI_REGISTRY_IMAGE:${CI_COMMIT_SHA:0:8} --destination $CI_REGISTRY_IMAGE:latest
 
-deploy-nautilus:
-  only:
-    refs:
-      - master
-  needs:
-    - build-and-push
-  stage: deploy
-  image: bitnami/kubectl
+deploy-helm:
+  image: alpine/helm:3.10.1
+  script:
+    - helm upgrade visualnet-api ./ --cleanup-on-fail -i -n visualnet-api --version=0.1.0 -f values.yaml
   environment:
     name: production
-  script:
-    - kubectl set image -n kube-system deployment nautilus-portal nautilus-portal=${CI_REGISTRY_IMAGE}:${CI_COMMIT_SHA:0:8}
+
