@@ -1,0 +1,69 @@
+{
+  "took": 19,
+  "timed_out": false,
+  "_shards": {
+    "total": 960,
+    "successful": 960,
+    "skipped": 954,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "ps_throughput-000259",
+        "_id": "5e20f7ec732b5612985ccc14f35ccf533a1416d9",
+        "_score": null,
+        "_source": {
+          "push": true,
+          "MA": "2001:48a8:68f7:1:192:41:230:60",
+          "src": "2001:48a8:68f7:1:192:41:230:60",
+          "dest": "2401:de00::301",
+          "src_host": "psum02.aglt2.org",
+          "dest_host": "perfsonar.ihep.ac.cn",
+          "ipv6": true,
+          "src_site": "AGLT2",
+          "src_VO": "ATLAS",
+          "dest_site": "BEIJING-LCG2",
+          "dest_VO": "ATLAS",
+          "src_production": true,
+          "dest_production": true,
+          "timestamp": 1688614434000,
+          "throughput": 2255277892
+        },
+        "sort": [
+          1688614434000
+        ]
+      },
+      {
+        "_index": "ps_throughput-000259",
+        "_id": "04211b14e28ab307ed38cd7a0d700825eb1ce211",
+        "_score": null,
+        "_source": {
+          "push": true,
+          "MA": "192.41.230.60",
+          "src": "192.41.230.60",
+          "dest": "202.122.32.166",
+          "src_host": "psum02.aglt2.org",
+          "dest_host": "perfsonar.ihep.ac.cn",
+          "ipv6": false,
+          "src_site": "AGLT2",
+          "src_VO": "ATLAS",
+          "dest_site": "BEIJING-LCG2",
+          "dest_VO": "ATLAS",
+          "src_production": true,
+          "dest_production": true,
+          "timestamp": 1688606888000,
+          "throughput": 130862761
+        },
+        "sort": [
+          1688606888000
+        ]
+      }
+    ]
+  }
+}
