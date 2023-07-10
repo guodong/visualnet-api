@@ -29,3 +29,16 @@ spec:
   tls:
   - hosts:
     - {{ .Values.domain }}
+---
+kind: Service
+metadata:
+  labels:
+    app: {{ .Values.applicationName }}
+  name: {{ .Values.applicationName }}
+spec:
+  ports:
+    - protocol: TCP
+      port: 4000
+      targetPort: 4000
+  selector:
+    app: {{ .Values.applicationName }}
